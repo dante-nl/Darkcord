@@ -1,0 +1,8 @@
+{
+    "name": "Darkcord",
+    "description": "An even darker version of Discord. My first theme, please be nice",
+    "version": "1.0",
+    "author": "dante_nl#7950",
+    "theme": "darkcord.css",
+    "license": "MIT"
+}
