@@ -70,37 +70,26 @@
     --rs-invisible-color: #43b581;
 }
 
-[data-author-id="618082876730376202"] .headerText-3Uvj1Y:before {
-    vertical-align: top;
-    padding: 3px 5px;
-    margin-left: 1px;
-  	margin-bottom: 5px;
-  	margin-top: 3px;
-    font-size: 10px;
-    height: 15px;
-    color: #fff;
-    background-color: #7289da;
-  	border-radius: 5px;
-  	align-items: center;
-  	justify-content: center;
-    content: "DARKCORD CREATOR";
+
+div[aria-label="USER_SETTINGS"] .info-1VyQPT:last-child > div:last-child::after {
+  content: "Darkcord (1.1)";
+  display: block;
 }
 
-[data-list-item-id*="618082876730376202"] .member-3-YXUe:before {
-    vertical-align: top;
-    padding: 3px 5px;
-    margin-left: 1px;
-  	margin-bottom: 5px;
-  	margin-top: 3px;
-    font-size: 10px;
-    height: 15px;
+.avatar-1BDn8e[src*="618082876730376202"] + h2 .username-1A8OIy::after {
+    content: 'DARKCORD CREATOR';
     color: #fff;
-    background-color: #7289da;
-  	border-radius: 5px;
-  	align-items: center;
-  	justify-content: center;
-    content: "DARKCORD CREATOR" !important;
+    background: #7289da;
+    display: inline-block;
+    font-size: 10px;
+    font-weight: 500;
+    height: 1.28em;
+    padding: 1px 4px;
+    border-radius: 3px;
+    line-height: 1.3;
+    margin-left: 4px;
 }
+
 
 div .scroller-2LSbBU auto-Ge5KZx scrollerBase-289Jih disableScrollAnchor-3V9UtP {
   background-color: #000;
@@ -110,6 +99,41 @@ div .sidebarRegionScroller-3MXcoP thin-1ybCId scrollerBase-289Jih fade-2kXiP2 {
   background-color: #1a1a1a1a
 }
 
+.compact-T3H92H .messageContent-2qWWxC {
+    font-size: 0;
+}
+.compact-T3H92H .messageContent-2qWWxC::after {
+    content: "Please switch to cozy mode. You can do this via Settings ➜ Appearance ➜ Message Display and click 'Cozy'";
+    font-size: 16px;
+}
+
+.compact-T3H92H .username-1A8OIy {
+  font-size: 0;
+}
+
+.compact-T3H92H .username-1A8OIy::after {
+  content: "Clyde";
+  color: #fff;
+  font-size: 16px;
+}
+
+.compact-T3H92H .username-1A8OIy::before {
+  content: 'BOT';
+  color: #fff;
+  background: #7289da;
+  font-size: 10px;
+  font-weight: 500;
+  height: 1.28em;
+  padding: 1px 4px;
+  border-radius: 3px;
+  line-height: 1.3;
+  margin-left: 4px;
+  margin-right: 3px;
+}
+
+.container-2_Tvc_.disabled-2HSEFa {
+  display: none !important;
+}
 .buttons-3JBrkn {opacity: 0; transition: opacity 0.1s;}
 .channelTextArea-rNsIhG:hover .buttons-3JBrkn {opacity: 1.0;}
 
@@ -211,3 +235,4 @@ div .sidebarRegionScroller-3MXcoP thin-1ybCId scrollerBase-289Jih fade-2kXiP2 {
   font-size: 16px;
   content: 'Thanks for using Darkcord!';
 }
+
