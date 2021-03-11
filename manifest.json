@@ -4,5 +4,6 @@
     "version": "1.0",
     "author": "dante_nl#7950",
     "theme": "darkcord.css",
+    "consent": "false",
     "license": "MIT"
 }
