@@ -236,3 +236,82 @@ div .sidebarRegionScroller-3MXcoP thin-1ybCId scrollerBase-289Jih fade-2kXiP2 {
   content: 'Thanks for using Darkcord!';
 }
 
+.iconWrapper-2OrFZ1[aria-label="Update Ready!"] {
+  position: fixed;
+  right: 2px;
+  top: 80px;
+  background: var(--background-tertiary);
+  border-radius: 10px;
+  width: 300px;
+  height: 130px;
+  border-right: 5px solid #43B581;
+  transition: background 1s;
+}
+.iconWrapper-2OrFZ1[aria-label="Update Ready!"]::before {
+  position: relative;
+  display: block;
+  content: "A discord update has been released.";
+  font-weight: 700;
+  top: 13px;
+  text-align: center;
+}
+.iconWrapper-2OrFZ1[aria-label="Update Ready!"]::after {
+  position: relative;
+  display: block;
+  content: "It is recommended to install it now to receive brand new features & patches.";
+  top: 22px;
+  text-align: center;
+}
+.iconWrapper-2OrFZ1[aria-label="Update Ready!"] > .icon-22AiRD {
+  position: fixed;
+  right: 148px;
+  top: 173px;
+}
+
+img[src="/assets/9a43e631d506ae4818ecefc825dc02ad.svg"], /*plus*/
+img[src="/assets/13c8662cff8e029799a35878b56e23eb.svg"], /*minus*/
+img[src="/assets/e37bc714ecd911af7c558f5aaa0c4464.svg"], /*ant*/
+img[src="/assets/d6e12f410c99374f88879450daaaced9.svg"], /*spider*/
+img[src="/assets/f34c63197816c3e60bea4a9537c5fffa.svg"], /*telephone*/
+img[src="/assets/05a1abc6388a96e2a536650433c12fca.svg"], /*video camera*/
+img[src="/assets/733a0db94b390b2fd5da87408285a079.svg"], /*movie camera*/
+img[src="/assets/16520d89e684777eedd536346015e71f.svg"], /*electric plug*/
+img[src="/assets/22bbea32f8826e963038329aee825bc1.svg"], /*chess pawn*/
+img[src="/assets/1d2dc7d83ed3182e3348d4f216c15c87.svg"], /*8-pointed star*/
+img[src="/assets/3d663bbe9d97bc976c24ec4d125fe2b3.svg"], /*div sign*/
+img[src="/assets/133b77ff9fc321682fed3cde12d6355c.svg"], /*multiplication sign*/
+img[src="/assets/1679bb713b6a99e6ddf111d45400be3a.svg"], /*$ sign*/
+img[src="/assets/da56d5c7e4409c0c1640ff6ba21ec1ad.svg"], /*currency exchange*/
+img[src="/assets/502afa9807a8da920a357e25c14da10a.svg"], /*wavy dash*/
+img[src="/assets/48c9c24b660f8c392a56f8d28c86f1c3.svg"], /*curly loop*/
+img[src="/assets/6a86f8cca40da89386aa7e9eca926da7.svg"], /*end*/
+img[src="/assets/6c928e43c553124e23e45c31c6ddbece.svg"], /*back*/
+img[src="/assets/b8b439115436db0c0bbff081749a1ddb.svg"], /*on!*/
+img[src="/assets/fa259978fede6539d40db4b59a2b0f66.svg"], /*top*/
+img[src="/assets/b3f45308df051ef73d8cf63ffe0976c3.svg"], /*soon*/
+img[src="/assets/7b3ff12d16d96ca77345da9450986dc7.svg"], /*check mark*/
+img[src="/assets/6278365424fa5701d3b185e2d9fe8225.svg"], /*b. circle*/
+img[src="/assets/60c5854fe77ca7a4946b7c801c559f4a.svg"], /*b. small square*/
+img[src="/assets/7d4f02f7354aee0b30e7e5a35579fff4.svg"], /*b. m. small square*/
+img[src="/assets/b6a3073e1281d1ef79d48ef130c183b2.svg"], /*b. medium square*/
+img[src="/assets/d0e23cdf2386056cc64e775a6248ed17.svg"], /*b. large square*/
+img[src="/assets/3fe9fcacdbee990bd0d873135689bd5b.svg"], /*spades*/
+img[src="/assets/b67a375a6b8f5caeacff463835c44011.svg"], /*clubs*/
+img[src="/assets/d91cb297561a6bc50f8c6918d428bc61.svg"]  /*black heart*/{
+  filter: invert(1);
+}
+
+.channelTextArea-rNsIhG { margin-bottom: 0; }
+.form-2fGMdU { padding: 0; }
+.inner-MADQqc { padding-top: 4px; }
+
+.base-gE7OpD { /* typing and slowmode stuff */
+    top: -24px; /* height is 24px */
+    background-color: var(--background-primary);
+}
+
+.scrollableContainer-2NUZem {
+    border-radius: 0px;
+    min-height: 53px;
+}
+
