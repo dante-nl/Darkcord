@@ -70,6 +70,11 @@
     --rs-invisible-color: #43b581;
 }
 
+/* Removes theme switcher */
+.marginTop40-i-78cZ:nth-child(2) {
+  display: none;
+}
+
 
 div[aria-label="USER_SETTINGS"] .info-1VyQPT:last-child > div:last-child::after {
   content: "Darkcord (1.1)";
