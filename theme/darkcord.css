@@ -76,7 +76,9 @@ div[aria-label="USER_SETTINGS"] .info-1VyQPT:last-child > div:last-child::after 
   display: block;
 }
 
-.avatar-1BDn8e[src*="618082876730376202"] + h2 .username-1A8OIy::after {
+.avatar-1BDn8e[src*="618082876730376202"] + h2 .username-1A8OIy::after,
+.avatar-3EQepX[data-user-id="618082876730376202"] + .headerInfo-30uryT .username-2b1r56,
+.avatar-3W3CeO[data-user-id="618082876730376202"] + .text-37NqbO .username-31C1TQ {
     content: 'DARKCORD CREATOR';
     color: #fff;
     background: #7289da;
