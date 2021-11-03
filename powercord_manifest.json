@@ -1,8 +1,8 @@
 {
     "name": "Darkcord",
-    "description": "An even darker version of Discord. My first theme, please be nice",
-    "version": "1.1",
-    "author": "dante_nl#7950",
+    "description": "Darkcord is an extra dark version of the regular Discord theme, plus some smaller changes",
+    "version": "1.2",
+    "author": "dante_nl#1234",
     "theme": "/theme/darkcord.css",
     "consent": "false",
     "license": "MIT"
