@@ -24,7 +24,7 @@
     --background-color: #000;
   	/* Channel list */
     --background-secondary: #1a1a1a;
-  	/* Thingy arounf the whole app */
+  	/* Thingy around the whole app on Windows*/
     --background-tertiary: #333333;
   	/* Accent. Includes the boost icon background, but also the reply line */
     --background-accent: #333;
@@ -227,7 +227,7 @@ div .sidebarRegionScroller-3MXcoP thin-1ybCId scrollerBase-289Jih fade-2kXiP2 {
 .iconWrapper-2OrFZ1[aria-label="Update Ready!"]::before {
   position: relative;
   display: block;
-  content: "A discord update has been released.";
+  content: "A Discord update has been released.";
   font-weight: 700;
   top: 13px;
   text-align: center;
@@ -287,7 +287,19 @@ img[src="/assets/d91cb297561a6bc50f8c6918d428bc61.svg"]  /*black heart*/{
     background-color: var(--background-primary);
 }
 
+/* Message bar on the bottom */
 .scrollableContainer-2NUZem {
     border-radius: 0px;
     min-height: 53px;
+}
+
+/* Announcement channel bar on the bottom (to folow the channel) */
+
+.wrapper-39oAo3 {
+	border-radius: 0px;
+  position: absolute; 
+	bottom: 0px;
+	margin-bottom: 0px !important;
+	background-color: #26292d;
+	height: 21px
 }
