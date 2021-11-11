@@ -46,8 +46,8 @@
     --guild-header-text-shadow: 0 1px 1px #007aff;
   	/* The text input field at the bottom */
     --channeltextarea-background: #272a2e;
-  	/* Also not sure what this does */
-    --activity-card-background: #007aff;
+  	/* Server discovery (example?) in server settings. */
+    --activity-card-background: #333333;
   	/* Background in the Installed Plugins boxes */
     --deprecated-card-bg: #1a1a1a;
   	/* Toast stuff. Don't touch */
