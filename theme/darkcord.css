@@ -98,7 +98,7 @@
 
 /* Darkcord version in settings */
 .info-1VyQPT::after {
-	content: "Darkcord 1.2.2";
+	content: "Darkcord 1.2.3";
 	color: #72767D;
 	font-size: small;
 }
@@ -302,4 +302,9 @@ img[src="/assets/d91cb297561a6bc50f8c6918d428bc61.svg"]  /*black heart*/{
 	margin-bottom: 0px !important;
 	background-color: #26292d;
 	height: 21px
+}
+
+/* "Wave to say hi" buttons in channels with join messages in servers */
+.welcomeCTAButtonOuter-2VwxSF {
+	background-color: #333 !important
 }
