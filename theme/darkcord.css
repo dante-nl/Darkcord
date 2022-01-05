@@ -23,21 +23,21 @@
     --background-primary: #000000;
     --background-color: #000;
   	/* Channel list */
-    --background-secondary: #1a1a1a;
+    --background-secondary: #000;
   	/* Thingy around the whole app on Windows*/
-    --background-tertiary: #333333;
+    --background-tertiary: #000;
   	/* Accent. Includes the boost icon background, but also the reply line */
-    --background-accent: #333;
+    --background-accent: #1a1a1a1a;
   	/* Hover thingy with badges and stuff */
-    --background-floating: #333333;
+    --background-floating: #333;
   	/* Channel hover thingy */
-    --background-modifier-hover: #000000;
+    --background-modifier-hover: #333;
   	/* When you hold the channel */
-    --background-modifier-active: #333333;
+    --background-modifier-active: #333;
   	/* Current selected channel */
-    --background-modifier-selected: #333333;
+    --background-modifier-selected: #333;
   	/* That line at the top of channels */
-    --background-modifier-accent: #333333;
+    --background-modifier-accent: #1a1a1a1a;
   	/* A line that seperates the server name and current channel with the display */
     --elevation-low: hidden;
   	/* The shadow from when you hover on a server's icon */
@@ -47,7 +47,7 @@
   	/* The text input field at the bottom */
     --channeltextarea-background: #272a2e;
   	/* Server discovery (example?) in server settings. */
-    --activity-card-background: #333333;
+    --activity-card-background: #1a1a1a1a;
   	/* Background in the Installed Plugins boxes */
     --deprecated-card-bg: #1a1a1a;
   	/* Toast stuff. Don't touch */
@@ -98,7 +98,7 @@
 
 /* Darkcord version in settings */
 .info-1VyQPT::after {
-	content: "Darkcord 1.2.3";
+	content: "Darkcord 1.3";
 	color: #72767D;
 	font-size: small;
 }
@@ -306,5 +306,5 @@ img[src="/assets/d91cb297561a6bc50f8c6918d428bc61.svg"]  /*black heart*/{
 
 /* "Wave to say hi" buttons in channels with join messages in servers */
 .welcomeCTAButtonOuter-2VwxSF {
-	background-color: #333 !important
+	background-color: #1a1a1a1a !important
 }
